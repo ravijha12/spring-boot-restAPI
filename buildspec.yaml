@@ -20,5 +20,5 @@ phases:
     - echo "jar creation is done"
 artifacts: 
   files:
-    - 'spring-boot-restAPI-v0.0.1.jar'
+    - 'target/spring-boot-restAPI-0.0.1-SNAPSHOT.jar'
     
