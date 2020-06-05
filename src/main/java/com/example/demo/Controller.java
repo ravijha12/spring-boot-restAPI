@@ -11,6 +11,7 @@ import com.example.demo.model.Student;
 @RequestMapping("/app")
 public class Controller {
 	
+	@GetMapping("/test")
 	public String test() {
 		return "woohoo!!!Congrats...your App is up adn running";
 	}
