@@ -19,4 +19,9 @@ public class Controller {
 	public Student getStudentBy(@RequestBody Student student) {
 		return student;
 	}
+	
+	@GetMapping("/hello")
+	public String GetMyName(){
+		return "Hello Ravi";
+	}
 }
