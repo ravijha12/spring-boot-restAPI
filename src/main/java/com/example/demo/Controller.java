@@ -21,8 +21,7 @@ public class Controller {
 	 * student) { return student; }
 	 */
 	
-	@GetMapping("/hello")
-	public String GetMyName(){
-		return "Hello Ravi";
-	}
+	/*
+	 * @GetMapping("/hello") public String GetMyName(){ return "Hello Ravi"; }
+	 */
 }
