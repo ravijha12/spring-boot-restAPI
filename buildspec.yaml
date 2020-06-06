@@ -16,7 +16,7 @@ phases:
     - mvn compile
     - echo "compilation is done"
     - echo "making a jar"
-    - mvn package
+    - mvn clean install
     - echo "jar creation is done"
 artifacts: 
   files:
