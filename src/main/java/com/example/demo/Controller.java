@@ -13,13 +13,13 @@ public class Controller {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "woohoo!!!Congrats...your App is up adn running";
+		return "woohoo!!!Congrats...your App is up and running";
 	}
 	
-	@GetMapping("/students")
-	public Student getStudentBy(@RequestBody Student student) {
-		return student;
-	}
+	/*
+	 * @GetMapping("/students") public Student getStudentBy(@RequestBody Student
+	 * student) { return student; }
+	 */
 	
 	@GetMapping("/hello")
 	public String GetMyName(){
